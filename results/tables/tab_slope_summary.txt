@@ -1,0 +1,19 @@
+tab:slope_summary -- aggregate slopes by shock, horizon-weighted beta_shock (main_s5_slope_summary.m, 2026-10-14 19:51)
+Paper columns: TFP, Policy, Cost-Push, Search (Matching Eff. for reference). -- = not defined.
+
+Benchmark Model                                      TFP    Policy  CostPush    Search  MatchEff
+------------------------------------------------------------------------------------------------
+Comovement beta_shock                              -0.10     -1.27      0.67        --        --
+Dynamic IS slope Theta_Y^{Agg,M}                    1.02      1.02      1.02        --        --
+Price Phillips slope Theta_Y^{Agg,pi}              0.144     0.029     0.219        --        --
+Real wage growth slope Theta_Y^{Agg,w}              2.82      0.57      4.30        --        --
+
+NK-SaM Model                                         TFP    Policy  CostPush    Search  MatchEff
+------------------------------------------------------------------------------------------------
+Comovement beta_shock                              -3.85     -1.82     -3.20     -5.81     -5.81
+Dynamic IS slope Theta_Y^{Agg,M}                   -3.71      2.53     -1.72     -9.72     -9.72
+Price Phillips slope Theta_Y^{Agg,pi}             -0.102     0.033    -0.059    -0.233    -0.233
+Real wage growth slope Theta_Y^{Agg,w}             -4.37      0.78     -2.73     -9.33     -9.33
+Utilization gap elasticity Theta_Y^{Agg,q}         -2.03      0.12     -1.35     -4.10     -4.10
+Price-elasticity gap elast. Theta_Y^{Agg,Xi}        4.73     -1.52      2.73     10.73     10.74
+

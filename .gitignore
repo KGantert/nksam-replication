@@ -1,0 +1,12 @@
+# Regenerable caches (rebuilt automatically, see lib/check_cache_signature.m)
+cache/
+# Dynare build and simulation output (deleted after each run by lib/cleanup_dynare_output.m)
+nk_time/
+model/+nk_time/
+model/nk_time.log
+# macOS
+.DS_Store
+# MATLAB editor autosave/backup files and Office lock files
+*.asv
+*.m~
+~$*

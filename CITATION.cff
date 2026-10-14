@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "Replication package: When Buying Takes Time: Shock Transmission across Goods and Labor Market Regimes in the New Keynesian Model"
+type: software
+authors:
+  - family-names: Gantert
+    given-names: Konstantin
+    email: kgantert@mail.de
+repository-code: "https://github.com/KGantert/nksam-replication"
+license: MIT
+preferred-citation:
+  type: article
+  title: "When Buying Takes Time: Shock Transmission across Goods and Labor Market Regimes in the New Keynesian Model"
+  authors:
+    - family-names: Gantert
+      given-names: Konstantin
+  journal: "SSRN Working Paper"
+  year: 2025
+  doi: "10.2139/ssrn.5440912"

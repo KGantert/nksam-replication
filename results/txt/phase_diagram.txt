@@ -1,0 +1,14 @@
+Phase diagram (main_s5_irfs.m, 14-Oct-2026 19:50:39), Cobb-Douglas NK-SaM scenario
+beta*_q  (diagonal boundary, -CU_t/CU_ue) = -1.928
+beta*_Xi (threshold, -PE_t/PE_ue)         = -2.313
+scale_factors    = [1.303 1.176 1.043 1.336 0.4762]
+impact_norms     = [1.228 0.6801 1.533 1.197 3.358]
+norm_target      = 1.599
+ThY              = 7.392
+Thu              = 3.835
+R2               = 1
+okun_slope       = -12.65
+okun_elast       = -2.23
+max_abs_ue_N     = 3.7e-09
+xi_beta          = -2.313
+classified differently in levels and gaps: eD

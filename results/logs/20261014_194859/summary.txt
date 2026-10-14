@@ -1,0 +1,15 @@
+run_all 20261014_194859  (cache=fresh, seed=1, copy_to_paper=0, cleanup_dynare=1)  total 18.9 min
+script                     status                  min  note
+main_s3_s4_slopes          OK                      0.4  9 output(s) checked
+main_s5_irfs               OK                      1.3  7 output(s) checked
+main_s5_slope_summary      OK                      0.4  6 output(s) checked
+app_A_calibration          OK                      0.4  1 output(s) checked
+app_A_data_moments         OK                      0.0  1 output(s) checked
+online_IV_equivalence      OK                      0.1  3 output(s) checked
+online_V1_steady_states    OK                      0.2  3 output(s) checked
+online_V3_efficiency_irfs  OK                      0.3  1 output(s) checked
+online_V4_emp_checks       OK                      1.4  3 output(s) checked
+online_VI_robustness       OK                     10.1  14 output(s) checked
+online_VI_fixed_kapP       OK                      0.0  2 output(s) checked
+online_VI_rigidity_grid    OK                      4.3  3 output(s) checked
+paper: all figures/tables identical in content to ../1_nksam_paper

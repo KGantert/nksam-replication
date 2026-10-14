@@ -1,0 +1,48 @@
+online_VI_rigidity_grid.m -- 14-Oct-2026 20:03:46
+thresholds omega*_q, omega*_Xi by lambda_P:
+   -1.9276   -2.3132
+   -1.9276   -2.3132
+   -1.9276   -2.3132
+   -1.9276   -2.3132
+
+
+== lambda_P = 0.051, lambda_W = 0.3000 ==
+
+== lambda_P = 0.051, lambda_W = 0.1793 ==
+
+== lambda_P = 0.051, lambda_W = 0.1450 ==
+
+== lambda_P = 0.051, lambda_W = 0.1107 ==
+
+== lambda_P = 0.051, lambda_W = 0.0725 ==
+
+== lambda_P = 0.039, lambda_W = 0.3000 ==
+
+== lambda_P = 0.039, lambda_W = 0.1793 ==
+
+== lambda_P = 0.039, lambda_W = 0.1450 ==
+
+== lambda_P = 0.039, lambda_W = 0.1107 ==
+
+== lambda_P = 0.039, lambda_W = 0.0725 ==
+
+== lambda_P = 0.063, lambda_W = 0.3000 ==
+
+== lambda_P = 0.063, lambda_W = 0.1793 ==
+
+== lambda_P = 0.063, lambda_W = 0.1450 ==
+
+== lambda_P = 0.063, lambda_W = 0.1107 ==
+
+== lambda_P = 0.063, lambda_W = 0.0725 ==
+
+== lambda_P = 0.014, lambda_W = 0.3000 ==
+
+== lambda_P = 0.014, lambda_W = 0.1793 ==
+
+== lambda_P = 0.014, lambda_W = 0.1450 ==
+
+== lambda_P = 0.014, lambda_W = 0.1107 ==
+
+== lambda_P = 0.014, lambda_W = 0.0725 ==
+[Warning: Vectorized content might take a long time to create, or it might contain unexpected results. Set 'ContentType' to 'image' for better performance. <a href="matlab:warning('off', 'MATLAB:print:ContentTypeImageSuggested')">Click here</a> to not see this message again.] 

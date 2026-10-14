@@ -1,0 +1,4 @@
+
+[run_all] ===== scripts/online_VI_fixed_kapP.m =====
+[run_all] OA VI check 5 (sec:robust_kapP): kappa_P, implied labor-share and price Phillips-curve slopes
+wrote /Users/konstantingantert/Nextcloud/Academic Research/01_Shopping_Time_and_the_Phillips_Curve/4_model_code_base/results/txt/fixed_kapP_summary.txt

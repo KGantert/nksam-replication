@@ -1,0 +1,447 @@
+ROBUSTNESS SUMMARY (Online Appendix VI) -- 14-Oct-2026 20:03:31
+
+Baseline impact responses (percent, 1 s.d. shocks)
+shock        Y NK-SaM  pi NK-SaM    Y bench   pi bench
+eM             0.3466     0.0485     0.5426     0.0774
+eD             0.9153    -0.0305     0.0001    -0.0000
+eA             0.5021    -0.0347     0.4118    -0.1012
+eP             1.0281    -0.0499     0.2298    -0.1270
+Static slopes (reduced form): Theta_Y^q = 2.0342, Theta_Y^Xi = -7.0957
+Thresholds (reduced form): omega*_q = -1.9276, omega*_Xi = -2.3132
+Dominant quadrant NK-SaM (eM, eD, eA, eP):  RI(59%) UC(58%) UC(68%) UC(77%)
+omega_shock NK-SaM (eM, eD, eA, eP):  -1.818 -5.812 -3.855 -3.205 | benchmark (eM, eA, eP):  -1.273 -0.101 0.669
+Search-effort shock alone: corr(lw,Y) = -0.846, corr(cu,Y) = 0.987, sd(cu)/sd(Y) = 0.462
+
+   monetary policy, impact, baseline NK-SaM: real wage 0.147 %, capacity utilization -0.011 pp
+   steady state, baseline NK-SaM: t=0.8599 n=1 h=0.497 d=0.21 dq=0.21 dp=7.455e-06 cu=0.86 q=0.86 x=1 ped=-6 ue=0.043 mcY=0.7167 pq=0.3922 kf=5.1e-06 kh=5.704e-06 ef=1
+   parameters, baseline NK-SaM: epsW=12.38 kapW=150.5 kapP=173 epss=8.353 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.32 subQ=-0.0001 nuD=2 nuN=2 delT=1 delI=1 muN=0.4731 muD=26.16 muH=4.689 psiQ=0.86 psiD=4.761 psiH=0.5191 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 1.0000, dp/d = 0.0000
+   steady state, baseline benchmark: t=0.9999 n=1 h=0.497 d=0.0001 dq=8.929e-05 dp=1.071e-05 cu=1 q=1 x=1 ped=-6 ue=0.043 mcY=0.8333 pq=8.334e-05 kf=8.255e-06 kh=6.633e-06 ef=1
+   parameters, baseline benchmark: epsW=12.38 kapW=150.5 kapP=117.7 epss=6.001 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.0001 subQ=-1e-05 nuD=2 nuN=2 delT=1 delI=1 muN=0.6108 muD=7.443e+07 muH=4.349 psiQ=1 psiD=1.12e+04 psiH=0.6036 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 0.8929, dp/d = 0.1071
+
+==== 1. Calibration Sensitivity (calib) ====
+-- $\gamma_Q=0.32$, $\nu_D/\nu_N=0.5$  [NK-SaM, $\gamma_Q=0.32$ (baseline)]
+   Panel A (Y, pi relative to baseline NK-SaM):  eM: 1.112 / 0.884  eD: 1.328 / 1.297  eA: 0.919 / 0.888  eP: 0.886 / 0.909
+   NK-SaM / benchmark impact Y:  eM: 0.711  eA: 1.120  eP: 3.963   (baseline: 0.639 1.219 4.473)
+   NK-SaM / benchmark: impact pi  0.555 0.305 0.357 | cumulative Y  0.697 0.748 1.614 | impact N  0.687 -1.003 8.144
+   omega_shock NK-SaM: -1.558 4.704 -2.279 -4.618 | benchmark: -1.273 -0.101 0.669
+   static slopes: levels 1.4619 / -3.6237, ratios 0.719 / 0.511
+   thresholds: omega*_q = -1.810, omega*_Xi = -2.315
+   dominant quadrant NK-SaM:  RI(94%) UC(65%) UC(61%) UC(71%)
+   search-effort alone: corr(lw,Y) = -0.846, corr(cu,Y) = 0.986, sd(cu)/sd(Y) = 0.460
+   monetary policy, impact, NK-SaM, $\nu_D/\nu_N=0.5$: real wage 0.152 %, capacity utilization 0.011 pp
+   steady state, NK-SaM, $\nu_D/\nu_N=0.5$: t=0.8599 n=1 h=0.497 d=0.21 dq=0.21 dp=7.455e-06 cu=0.86 q=0.86 x=1 ped=-6 ue=0.043 mcY=0.7167 pq=0.3922 kf=5.1e-06 kh=5.704e-06 ef=1
+   parameters, NK-SaM, $\nu_D/\nu_N=0.5$: epsW=12.38 kapW=150.5 kapP=173 epss=8.353 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.32 subQ=-0.0001 nuD=1 nuN=2 delT=1 delI=1 muN=0.4731 muD=5.493 muH=4.689 psiQ=0.86 psiD=4.761 psiH=0.5191 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 1.0000, dp/d = 0.0000
+-- $\gamma_Q=0.32$, $\nu_D/\nu_N=1.5$  [NK-SaM, $\gamma_Q=0.32$ (baseline)]
+   Panel A (Y, pi relative to baseline NK-SaM):  eM: 0.929 / 1.070  eD: 0.804 / 0.814  eA: 1.051 / 1.068  eP: 1.073 / 1.057
+   NK-SaM / benchmark impact Y:  eM: 0.594  eA: 1.281  eP: 4.798   (baseline: 0.639 1.219 4.473)
+   NK-SaM / benchmark: impact pi  0.671 0.367 0.415 | cumulative Y  0.473 0.810 1.853 | impact N  0.648 -1.118 8.509
+   omega_shock NK-SaM: -2.014 -3.527 -3.068 -2.725 | benchmark: -1.273 -0.101 0.669
+   static slopes: levels 3.1124 / -13.6372, ratios 1.530 / 1.922
+   thresholds: omega*_q = -2.045, omega*_Xi = -2.312
+   dominant quadrant NK-SaM:  RI(57%) UC(71%) UC(81%) UC(80%)
+   search-effort alone: corr(lw,Y) = -0.846, corr(cu,Y) = 0.988, sd(cu)/sd(Y) = 0.464
+   monetary policy, impact, NK-SaM, $\nu_D/\nu_N=1.5$: real wage 0.144 %, capacity utilization -0.025 pp
+   steady state, NK-SaM, $\nu_D/\nu_N=1.5$: t=0.8599 n=1 h=0.497 d=0.21 dq=0.21 dp=7.455e-06 cu=0.86 q=0.86 x=1 ped=-6 ue=0.043 mcY=0.7167 pq=0.3922 kf=5.1e-06 kh=5.704e-06 ef=1
+   parameters, NK-SaM, $\nu_D/\nu_N=1.5$: epsW=12.38 kapW=150.5 kapP=173 epss=8.353 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.32 subQ=-0.0001 nuD=3 nuN=2 delT=1 delI=1 muN=0.4731 muD=124.5 muH=4.689 psiQ=0.86 psiD=4.761 psiH=0.5191 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 1.0000, dp/d = 0.0000
+-- $\gamma_Q=0.11$, $\nu_D/\nu_N=0.5$  [NK-SaM, $\gamma_Q=0.11$]
+   Panel A (Y, pi relative to baseline NK-SaM):  eM: 1.457 / 1.293  eD: 0.289 / 0.846  eA: 0.991 / 1.925  eP: 0.684 / 1.763
+   NK-SaM / benchmark impact Y:  eM: 0.931  eA: 1.208  eP: 3.061   (baseline: 0.639 1.219 4.473)
+   NK-SaM / benchmark: impact pi  0.811 0.661 0.692 | cumulative Y  0.896 0.939 1.509 | impact N  0.932 -0.203 4.969
+   omega_shock NK-SaM: -1.355 -0.269 1.831 -11.310 | benchmark: -1.273 -0.101 0.669
+   static slopes: levels 0.6162 / -1.4017, ratios 0.303 / 0.198
+   thresholds: omega*_q = -1.506, omega*_Xi = -1.768
+   dominant quadrant NK-SaM:  RI(62%) KU(88%) UC(73%) UC(47%)
+   search-effort alone: corr(lw,Y) = 0.980, corr(cu,Y) = 0.996, sd(cu)/sd(Y) = 1.070
+   monetary policy, impact, NK-SaM, $\nu_D/\nu_N=0.5$: real wage 0.167 %, capacity utilization -0.001 pp
+   steady state, NK-SaM, $\nu_D/\nu_N=0.5$: t=0.8599 n=1 h=0.497 d=0.21 dq=0.21 dp=2.249e-05 cu=0.86 q=0.86 x=1 ped=-6 ue=0.043 mcY=0.7167 pq=0.103 kf=6.437e-06 kh=5.704e-06 ef=1
+   parameters, NK-SaM, $\nu_D/\nu_N=0.5$: epsW=12.38 kapW=150.5 kapP=132.2 epss=6.618 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.11 subQ=-0.0001 nuD=1 nuN=2 delT=1 delI=1 muN=0.5972 muD=1.821 muH=4.689 psiQ=0.86 psiD=4.762 psiH=0.5191 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 0.9999, dp/d = 0.0001
+-- $\gamma_Q=0.11$, $\nu_D/\nu_N=1$  [NK-SaM, $\gamma_Q=0.11$]
+   Panel A (Y, pi relative to baseline NK-SaM):  eM: 1.428 / 1.384  eD: 0.206 / 0.617  eA: 1.031 / 2.064  eP: 0.734 / 1.889
+   NK-SaM / benchmark impact Y:  eM: 0.912  eA: 1.257  eP: 3.281   (baseline: 0.639 1.219 4.473)
+   NK-SaM / benchmark: impact pi  0.868 0.709 0.742 | cumulative Y  0.839 0.961 1.573 | impact N  0.942 -0.151 4.803
+   omega_shock NK-SaM: -1.424 -0.383 2.275 -6.319 | benchmark: -1.273 -0.101 0.669
+   static slopes: levels 0.5344 / -1.8636, ratios 0.263 / 0.263
+   thresholds: omega*_q = -1.473, omega*_Xi = -1.767
+   dominant quadrant NK-SaM:  RI(61%) KU(89%) UC(67%) UC(62%)
+   search-effort alone: corr(lw,Y) = 0.981, corr(cu,Y) = 0.996, sd(cu)/sd(Y) = 1.090
+   monetary policy, impact, NK-SaM, $\nu_D/\nu_N=1$: real wage 0.166 %, capacity utilization -0.014 pp
+   steady state, NK-SaM, $\nu_D/\nu_N=1$: t=0.8599 n=1 h=0.497 d=0.21 dq=0.21 dp=2.249e-05 cu=0.86 q=0.86 x=1 ped=-6 ue=0.043 mcY=0.7167 pq=0.103 kf=6.437e-06 kh=5.704e-06 ef=1
+   parameters, NK-SaM, $\nu_D/\nu_N=1$: epsW=12.38 kapW=150.5 kapP=132.2 epss=6.618 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.11 subQ=-0.0001 nuD=2 nuN=2 delT=1 delI=1 muN=0.5972 muD=8.671 muH=4.689 psiQ=0.86 psiD=4.762 psiH=0.5191 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 0.9999, dp/d = 0.0001
+-- $\gamma_Q=0.11$, $\nu_D/\nu_N=1.5$  [NK-SaM, $\gamma_Q=0.11$]
+   Panel A (Y, pi relative to baseline NK-SaM):  eM: 1.411 / 1.435  eD: 0.160 / 0.485  eA: 1.054 / 2.142  eP: 0.762 / 1.961
+   NK-SaM / benchmark impact Y:  eM: 0.901  eA: 1.285  eP: 3.409   (baseline: 0.639 1.219 4.473)
+   NK-SaM / benchmark: impact pi  0.900 0.736 0.770 | cumulative Y  0.808 0.974 1.612 | impact N  0.948 -0.122 4.708
+   omega_shock NK-SaM: -1.465 -0.462 2.534 -4.923 | benchmark: -1.273 -0.101 0.669
+   static slopes: levels 0.4692 / -2.2315, ratios 0.231 / 0.314
+   thresholds: omega*_q = -1.440, omega*_Xi = -1.767
+   dominant quadrant NK-SaM:  RI(61%) KU(89%) UC(61%) UC(67%)
+   search-effort alone: corr(lw,Y) = 0.982, corr(cu,Y) = 0.996, sd(cu)/sd(Y) = 1.100
+   monetary policy, impact, NK-SaM, $\nu_D/\nu_N=1.5$: real wage 0.166 %, capacity utilization -0.022 pp
+   steady state, NK-SaM, $\nu_D/\nu_N=1.5$: t=0.8599 n=1 h=0.497 d=0.21 dq=0.21 dp=2.249e-05 cu=0.86 q=0.86 x=1 ped=-6 ue=0.043 mcY=0.7167 pq=0.103 kf=6.437e-06 kh=5.704e-06 ef=1
+   parameters, NK-SaM, $\nu_D/\nu_N=1.5$: epsW=12.38 kapW=150.5 kapP=132.2 epss=6.618 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.11 subQ=-0.0001 nuD=3 nuN=2 delT=1 delI=1 muN=0.5972 muD=41.29 muH=4.689 psiQ=0.86 psiD=4.762 psiH=0.5191 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 0.9999, dp/d = 0.0001
+
+==== 2. Quality Search (qs) ====
+-- $\gamma_P=0.1$  [NK-SaM model]
+   Panel A (Y, pi relative to baseline NK-SaM):  eM: 1.147 / 0.873  eD: 0.898 / 0.839  eA: 0.928 / 0.862  eP: 0.884 / 0.884
+   NK-SaM / benchmark impact Y:  eM: 0.733  eA: 1.132  eP: 3.955   (baseline: 0.639 1.219 4.473)
+   NK-SaM / benchmark: impact pi  0.548 0.296 0.347 | cumulative Y  0.724 0.755 1.612 | impact N  0.703 -1.034 8.118
+   omega_shock NK-SaM: -1.519 4.745 -2.089 -4.722 | benchmark: -1.273 -0.101 0.669
+   static slopes: levels 1.4137 / -3.3740, ratios 0.695 / 0.475
+   thresholds: omega*_q = -1.782, omega*_Xi = -2.289
+   dominant quadrant NK-SaM:  RI(94%) UC(65%) UC(61%) UC(71%)
+   search-effort alone: corr(lw,Y) = -0.865, corr(cu,Y) = 0.985, sd(cu)/sd(Y) = 0.448
+   monetary policy, impact, NK-SaM, $\gamma_P=0.1$: real wage 0.153 %, capacity utilization 0.014 pp
+   steady state, NK-SaM, $\gamma_P=0.1$: t=0.8599 n=1 h=0.497 d=0.21 dq=0.1506 dp=0.0594 cu=0.86 q=0.86 x=1 ped=-6 ue=0.043 mcY=0.7167 pq=0.3922 kf=3.514e-06 kh=4.991e-06 ef=1
+   parameters, NK-SaM, $\gamma_P=0.1$: epsW=12.38 kapW=150.5 kapP=173 epss=9.17 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=0.1 gamQ=0.32 subQ=-0.0001 nuD=2 nuN=2 delT=1 delI=1 muN=0.4354 muD=33.56 muH=5.479 psiQ=0.86 psiD=6.639 psiH=0.5191 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 0.7171, dp/d = 0.2829
+-- $\gamma_P=0.16$  [NK-SaM model]
+   Panel A (Y, pi relative to baseline NK-SaM):  eM: 1.197 / 0.829  eD: 0.868 / 0.783  eA: 0.904 / 0.815  eP: 0.843 / 0.842
+   NK-SaM / benchmark impact Y:  eM: 0.764  eA: 1.102  eP: 3.772   (baseline: 0.639 1.219 4.473)
+   NK-SaM / benchmark: impact pi  0.520 0.280 0.331 | cumulative Y  0.782 0.743 1.566 | impact N  0.716 -1.021 8.010
+   omega_shock NK-SaM: -1.435 3.867 -0.060 -5.681 | benchmark: -1.273 -0.101 0.669
+   static slopes: levels 1.3112 / -2.7582, ratios 0.645 / 0.389
+   thresholds: omega*_q = -1.747, omega*_Xi = -2.281
+   dominant quadrant NK-SaM:  RI(93%) UC(74%) UC(60%) UC(67%)
+   search-effort alone: corr(lw,Y) = -0.873, corr(cu,Y) = 0.984, sd(cu)/sd(Y) = 0.440
+   monetary policy, impact, NK-SaM, $\gamma_P=0.16$: real wage 0.155 %, capacity utilization 0.022 pp
+   steady state, NK-SaM, $\gamma_P=0.16$: t=0.8599 n=1 h=0.497 d=0.21 dq=0.1253 dp=0.08472 cu=0.86 q=0.86 x=1 ped=-6 ue=0.043 mcY=0.7167 pq=0.3922 kf=2.957e-06 kh=4.739e-06 ef=1
+   parameters, NK-SaM, $\gamma_P=0.16$: epsW=12.38 kapW=150.5 kapP=173 epss=9.754 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=0.16 gamQ=0.32 subQ=-0.0001 nuD=2 nuN=2 delT=1 delI=1 muN=0.4089 muD=37.88 muH=5.806 psiQ=0.86 psiD=7.981 psiH=0.5191 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 0.5966, dp/d = 0.4034
+
+==== 3. Firm-Specific Search Convexity (iq) ====
+-- $\mathbb{I}_Q=1$, $\epsilon=8.35$  [NK-SaM model]
+   Panel A (Y, pi relative to baseline NK-SaM):  eM: 1.393 / 1.121  eD: 0.514 / 1.177  eA: 0.694 / 1.099  eP: 0.390 / 0.848
+   NK-SaM / benchmark impact Y:  eM: 0.890  eA: 0.846  eP: 1.747   (baseline: 0.639 1.219 4.473)
+   NK-SaM / benchmark: impact pi  0.703 0.377 0.333 | cumulative Y  0.975 0.673 0.896 | impact N  0.914 -0.376 4.719
+   omega_shock NK-SaM: -1.306 0.077 1.400 12.392 | benchmark: -1.273 -0.101 0.669
+   static slopes: levels NaN / NaN, ratios NaN / NaN
+   thresholds: omega*_q = NaN, omega*_Xi = NaN
+   dominant quadrant NK-SaM:  RI(62%) UC(96%) UC(78%) UC(62%)
+   search-effort alone: corr(lw,Y) = 0.989, corr(cu,Y) = 0.999, sd(cu)/sd(Y) = 0.884
+   monetary policy, impact, NK-SaM, $I_Q=1$: real wage 0.168 %, capacity utilization -0.011 pp
+   steady state, NK-SaM, $I_Q=1$: t=0.8599 n=1 h=0.497 d=0.21 dq=0.21 dp=2.236e-05 cu=0.86 q=0.86 x=1 ped=-7.569 ue=0.043 mcY=0.5681 pq=0.1036 kf=5.1e-06 kh=5.704e-06 ef=1
+   parameters, NK-SaM, $I_Q=1$: epsW=12.38 kapW=150.5 kapP=218.2 epss=8.353 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.32 subQ=-0.0001 nuD=2 nuN=2 delT=1 delI=1 muN=0.4731 muD=8.719 muH=4.689 psiQ=0.86 psiD=4.762 psiH=0.5191 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 0.9999, dp/d = 0.0001
+
+==== 4. Long-Term Trade Relationships and Inventories (longterm) ====
+-- $\delta_T=0.25$  [NK-SaM model]
+   Panel A (Y, pi relative to baseline NK-SaM):  eM: 0.942 / 2.322  eD: 0.278 / 2.553  eA: 0.641 / 2.983  eP: 0.351 / 2.944
+   NK-SaM / benchmark impact Y:  eM: 0.601  eA: 0.782  eP: 1.570   (baseline: 0.639 1.219 4.473)
+   NK-SaM / benchmark: impact pi  1.457 1.024 1.157 | cumulative Y  0.771 0.915 1.255 | impact N  0.926 0.024 3.499
+   omega_shock NK-SaM: -1.556 2.371 2.776 -11.162 | benchmark: -1.273 -0.101 0.669
+   static slopes: levels NaN / NaN, ratios NaN / NaN
+   thresholds: omega*_q = NaN, omega*_Xi = NaN
+   dominant quadrant NK-SaM:  RI(70%) UC(84%) UC(61%) CU(50%)
+   search-effort alone: corr(lw,Y) = -0.671, corr(cu,Y) = 0.969, sd(cu)/sd(Y) = 0.481
+   monetary policy, impact, NK-SaM, Trade relationships, $\delta_T=0.25$: real wage 0.120 %, capacity utilization -0.152 pp
+   steady state, NK-SaM, Trade relationships, $\delta_T=0.25$: t=0.8599 n=1 h=0.497 d=0.21 dq=0.2099 dp=6.248e-05 cu=0.86 q=0.6056 x=1 ped=-6.129 ue=0.043 mcY=0.7167 pq=0.1392 kf=6.855e-06 kh=5.704e-06 ef=1
+   parameters, NK-SaM, Trade relationships, $\delta_T=0.25$: epsW=12.38 kapW=150.5 kapP=133.7 epss=6.348 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.32 subQ=-0.0001 nuD=2 nuN=2 delT=0.25 delI=1 muN=0.6359 muD=3.121 muH=4.689 psiQ=0.6056 psiD=1.691 psiH=0.5191 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 0.9997, dp/d = 0.0003
+-- $\delta_I=0.74$  [NK-SaM model]
+   Panel A (Y, pi relative to baseline NK-SaM):  eM: 1.136 / 1.055  eD: 0.807 / 0.895  eA: 1.024 / 1.195  eP: 0.968 / 1.149
+   NK-SaM / benchmark impact Y:  eM: 0.726  eA: 1.249  eP: 4.332   (baseline: 0.639 1.219 4.473)
+   NK-SaM / benchmark: impact pi  0.662 0.410 0.451 | cumulative Y  0.640 0.840 1.798 | impact N  0.821 -1.500 8.982
+   omega_shock NK-SaM: -1.702 1.453 -4.193 -3.672 | benchmark: -1.273 -0.101 0.669
+   static slopes: levels NaN / NaN, ratios NaN / NaN
+   thresholds: omega*_q = NaN, omega*_Xi = NaN
+   dominant quadrant NK-SaM:  RI(60%) UC(75%) UC(67%) UC(78%)
+   search-effort alone: corr(lw,Y) = 0.321, corr(cu,Y) = 0.994, sd(cu)/sd(Y) = 0.600
+   monetary policy, impact, NK-SaM, Inventories, $\delta_I=0.74$: real wage 0.157 %, capacity utilization -0.044 pp
+   steady state, NK-SaM, Inventories, $\delta_I=0.74$: t=0.8599 n=1 h=0.497 d=0.21 dq=0.21 dp=8.973e-06 cu=0.86 q=0.8197 x=1 ped=-6.015 ue=0.043 mcY=0.7167 pq=0.3055 kf=5.439e-06 kh=5.704e-06 ef=1
+   parameters, NK-SaM, Inventories, $\delta_I=0.74$: epsW=12.38 kapW=150.5 kapP=163.2 epss=7.853 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.32 subQ=-0.0001 nuD=2 nuN=2 delT=1 delI=0.74 muN=0.5045 muD=21.73 muH=4.689 psiQ=0.8197 psiD=4.996 psiH=0.5191 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 1.0000, dp/d = 0.0000
+-- $\delta_T=0.25$, $\delta_I=0.74$  [NK-SaM model]
+   Panel A (Y, pi relative to baseline NK-SaM):  eM: 1.019 / 2.153  eD: 0.242 / 2.130  eA: 0.664 / 3.030  eP: 0.350 / 2.912
+   NK-SaM / benchmark impact Y:  eM: 0.651  eA: 0.810  eP: 1.567   (baseline: 0.639 1.219 4.473)
+   NK-SaM / benchmark: impact pi  1.351 1.040 1.144 | cumulative Y  0.816 0.942 1.264 | impact N  1.154 -0.498 4.088
+   omega_shock NK-SaM: -1.531 1.499 1.440 -12.769 | benchmark: -1.273 -0.101 0.669
+   static slopes: levels NaN / NaN, ratios NaN / NaN
+   thresholds: omega*_q = NaN, omega*_Xi = NaN
+   dominant quadrant NK-SaM:  RI(70%) UC(88%) UC(59%) UC(54%)
+   search-effort alone: corr(lw,Y) = -0.587, corr(cu,Y) = 0.995, sd(cu)/sd(Y) = 0.536
+   monetary policy, impact, NK-SaM, Both: real wage 0.136 %, capacity utilization -0.235 pp
+   steady state, NK-SaM, Both: t=0.8599 n=1 h=0.497 d=0.21 dq=0.2099 dp=7.35e-05 cu=0.86 q=0.5319 x=1 ped=-6.145 ue=0.043 mcY=0.7167 pq=0.1177 kf=6.892e-06 kh=5.704e-06 ef=1
+   parameters, NK-SaM, Both: epsW=12.38 kapW=150.5 kapP=133.4 epss=6.331 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.32 subQ=-0.0001 nuD=2 nuN=2 delT=0.25 delI=0.74 muN=0.6393 muD=2.653 muH=4.689 psiQ=0.5319 psiD=1.925 psiH=0.5191 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 0.9996, dp/d = 0.0004
+
+==== 5. Phillips-Curve Calibration: Fixed kappa_P (kapP) ====
+-- $\kappa_P=117.6$  [NK-SaM model]
+   Panel A (Y, pi relative to baseline NK-SaM):  eM: 0.972 / 1.281  eD: 1.003 / 1.401  eA: 1.013 / 1.265  eP: 1.004 / 1.408
+   NK-SaM / benchmark impact Y:  eM: 0.621  eA: 1.235  eP: 4.493   (baseline: 0.639 1.219 4.473)
+   NK-SaM / benchmark: impact pi  0.804 0.434 0.553 | cumulative Y  0.533 0.793 1.762 | impact N  0.652 -1.089 8.354
+   omega_shock NK-SaM: -1.845 -5.721 -3.779 -3.184 | benchmark: -1.273 -0.101 0.669
+   static slopes: levels 2.0342 / -7.0957, ratios 1.000 / 1.000
+   thresholds: omega*_q = -1.928, omega*_Xi = -2.313
+   dominant quadrant NK-SaM:  RI(59%) UC(58%) UC(73%) UC(77%)
+   search-effort alone: corr(lw,Y) = -0.823, corr(cu,Y) = 0.986, sd(cu)/sd(Y) = 0.467
+   monetary policy, impact, NK-SaM, $\kappa_P=117.6$ (benchmark value): real wage 0.134 %, capacity utilization -0.015 pp
+   steady state, NK-SaM, $\kappa_P=117.6$ (benchmark value): t=0.8599 n=1 h=0.497 d=0.21 dq=0.21 dp=7.455e-06 cu=0.86 q=0.86 x=1 ped=-6 ue=0.043 mcY=0.7167 pq=0.3922 kf=5.1e-06 kh=5.704e-06 ef=1
+   parameters, NK-SaM, $\kappa_P=117.6$ (benchmark value): epsW=12.38 kapW=150.5 kapP=117.6 epss=8.353 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.32 subQ=-0.0001 nuD=2 nuN=2 delT=1 delI=1 muN=0.4731 muD=26.16 muH=4.689 psiQ=0.86 psiD=4.761 psiH=0.5191 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 1.0000, dp/d = 0.0000
+
+==== 6. Price Rigidity: 95% Interval of the Phillips-Curve Slope (kapPci) ====
+-- $NKPC=0.039$  [NK-SaM model]
+   Panel A (Y, pi relative to baseline NK-SaM):  eM: 1.018 / 0.835  eD: 0.998 / 0.790  eA: 0.991 / 0.845  eP: 0.998 / 0.788
+   NK-SaM / benchmark impact Y:  eM: 0.639  eA: 1.251  eP: 5.014   (baseline: 0.639 1.219 4.473)
+   NK-SaM / benchmark: impact pi  0.590 0.334 0.386 | cumulative Y  0.542 0.801 1.872 | impact N  0.659 -1.000 9.404
+   omega_shock NK-SaM: -1.802 -5.846 -3.842 -3.216 | benchmark: -1.249 -0.134 0.584
+   static slopes: levels 2.0342 / -7.0957, ratios 1.000 / 1.000
+   thresholds: omega*_q = -1.928, omega*_Xi = -2.313
+   dominant quadrant NK-SaM:  RI(59%) UC(57%) UC(72%) UC(77%)
+   search-effort alone: corr(lw,Y) = -0.858, corr(cu,Y) = 0.988, sd(cu)/sd(Y) = 0.460
+   monetary policy, impact, NK-SaM, $NKPC_{Slope}=0.039$ (high $\kappa_P$): real wage 0.155 %, capacity utilization -0.009 pp
+   steady state, NK-SaM, $NKPC_{Slope}=0.039$ (high $\kappa_P$): t=0.8599 n=1 h=0.497 d=0.21 dq=0.21 dp=7.455e-06 cu=0.86 q=0.86 x=1 ped=-6 ue=0.043 mcY=0.7167 pq=0.3922 kf=5.1e-06 kh=5.704e-06 ef=1
+   parameters, NK-SaM, $NKPC_{Slope}=0.039$ (high $\kappa_P$): epsW=12.38 kapW=150.5 kapP=224.9 epss=8.353 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.32 subQ=-0.0001 nuD=2 nuN=2 delT=1 delI=1 muN=0.4731 muD=26.16 muH=4.689 psiQ=0.86 psiD=4.761 psiH=0.5191 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 1.0000, dp/d = 0.0000
+   steady state, benchmark, $NKPC_{Slope}=0.039$ (high $\kappa_P$): t=0.9999 n=1 h=0.497 d=0.0001 dq=8.929e-05 dp=1.071e-05 cu=1 q=1 x=1 ped=-6 ue=0.043 mcY=0.8333 pq=8.334e-05 kf=8.255e-06 kh=6.633e-06 ef=1
+   parameters, benchmark, $NKPC_{Slope}=0.039$ (high $\kappa_P$): epsW=12.38 kapW=150.5 kapP=152.9 epss=6.001 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.0001 subQ=-1e-05 nuD=2 nuN=2 delT=1 delI=1 muN=0.6108 muD=7.443e+07 muH=4.349 psiQ=1 psiD=1.12e+04 psiH=0.6036 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 0.8929, dp/d = 0.1071
+-- $NKPC=0.063$  [NK-SaM model]
+   Panel A (Y, pi relative to baseline NK-SaM):  eM: 0.985 / 1.146  eD: 1.002 / 1.201  eA: 1.007 / 1.137  eP: 1.002 / 1.204
+   NK-SaM / benchmark impact Y:  eM: 0.638  eA: 1.193  eP: 4.066   (baseline: 0.639 1.219 4.473)
+   NK-SaM / benchmark: impact pi  0.658 0.350 0.399 | cumulative Y  0.570 0.776 1.667 | impact N  0.667 -1.143 7.583
+   omega_shock NK-SaM: -1.832 -5.770 -3.825 -3.194 | benchmark: -1.293 -0.072 0.750
+   static slopes: levels 2.0342 / -7.0957, ratios 1.000 / 1.000
+   thresholds: omega*_q = -1.928, omega*_Xi = -2.313
+   dominant quadrant NK-SaM:  RI(59%) UC(58%) UC(71%) UC(77%)
+   search-effort alone: corr(lw,Y) = -0.835, corr(cu,Y) = 0.987, sd(cu)/sd(Y) = 0.464
+   monetary policy, impact, NK-SaM, $NKPC_{Slope}=0.063$ (low $\kappa_P$): real wage 0.140 %, capacity utilization -0.013 pp
+   steady state, NK-SaM, $NKPC_{Slope}=0.063$ (low $\kappa_P$): t=0.8599 n=1 h=0.497 d=0.21 dq=0.21 dp=7.455e-06 cu=0.86 q=0.86 x=1 ped=-6 ue=0.043 mcY=0.7167 pq=0.3922 kf=5.1e-06 kh=5.704e-06 ef=1
+   parameters, NK-SaM, $NKPC_{Slope}=0.063$ (low $\kappa_P$): epsW=12.38 kapW=150.5 kapP=140.6 epss=8.353 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.32 subQ=-0.0001 nuD=2 nuN=2 delT=1 delI=1 muN=0.4731 muD=26.16 muH=4.689 psiQ=0.86 psiD=4.761 psiH=0.5191 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 1.0000, dp/d = 0.0000
+   steady state, benchmark, $NKPC_{Slope}=0.063$ (low $\kappa_P$): t=0.9999 n=1 h=0.497 d=0.0001 dq=8.929e-05 dp=1.071e-05 cu=1 q=1 x=1 ped=-6 ue=0.043 mcY=0.8333 pq=8.334e-05 kf=8.255e-06 kh=6.633e-06 ef=1
+   parameters, benchmark, $NKPC_{Slope}=0.063$ (low $\kappa_P$): epsW=12.38 kapW=150.5 kapP=95.61 epss=6.001 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.0001 subQ=-1e-05 nuD=2 nuN=2 delT=1 delI=1 muN=0.6108 muD=7.443e+07 muH=4.349 psiQ=1 psiD=1.12e+04 psiH=0.6036 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 0.8929, dp/d = 0.1071
+-- Flexible prices  [NK-SaM model]
+   Panel A (Y, pi relative to baseline NK-SaM):  eM: 0.751 / 7.301  eD: 1.044 / 27.158  eA: 1.105 / 9.838  eP: 1.058 / 29.424
+   NK-SaM / benchmark impact Y:  eM: 0.657  eA: 0.612  eP: 0.569   (baseline: 0.639 1.219 4.473)
+   NK-SaM / benchmark: impact pi  1.615 0.575 0.807 | cumulative Y  0.718 0.670 0.601 | impact N  0.968 0.664 0.726
+   omega_shock NK-SaM: -2.313 -2.313 -2.313 -2.313 | benchmark: -1.573 -1.573 -1.573
+   static slopes: levels 2.0342 / -7.0957, ratios 1.000 / 1.000
+   thresholds: omega*_q = -1.928, omega*_Xi = -2.313
+   dominant quadrant NK-SaM:  UC(100%) CU(64%) UC(79%) UC(66%)
+   search-effort alone: corr(lw,Y) = 0.831, corr(cu,Y) = 0.988, sd(cu)/sd(Y) = 0.753
+   monetary policy, impact, NK-SaM, Flexible prices, $\kappa_P=0$: real wage -0.123 %, capacity utilization -0.106 pp
+   steady state, NK-SaM, Flexible prices, $\kappa_P=0$: t=0.8599 n=1 h=0.497 d=0.21 dq=0.21 dp=7.455e-06 cu=0.86 q=0.86 x=1 ped=-6 ue=0.043 mcY=0.7167 pq=0.3922 kf=5.1e-06 kh=5.704e-06 ef=1
+   parameters, NK-SaM, Flexible prices, $\kappa_P=0$: epsW=12.38 kapW=150.5 kapP=0 epss=8.353 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.32 subQ=-0.0001 nuD=2 nuN=2 delT=1 delI=1 muN=0.4731 muD=26.16 muH=4.689 psiQ=0.86 psiD=4.761 psiH=0.5191 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 1.0000, dp/d = 0.0000
+   steady state, benchmark, Flexible prices, $\kappa_P=0$: t=0.9999 n=1 h=0.497 d=0.0001 dq=8.929e-05 dp=1.071e-05 cu=1 q=1 x=1 ped=-6 ue=0.043 mcY=0.8333 pq=8.334e-05 kf=8.255e-06 kh=6.633e-06 ef=1
+   parameters, benchmark, Flexible prices, $\kappa_P=0$: epsW=12.38 kapW=150.5 kapP=0 epss=6.001 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.0001 subQ=-1e-05 nuD=2 nuN=2 delT=1 delI=1 muN=0.6108 muD=7.443e+07 muH=4.349 psiQ=1 psiD=1.12e+04 psiH=0.6036 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 0.8929, dp/d = 0.1071
+
+==== 7. Wage Rigidity: 95% Interval of the Wage Phillips-Curve Slope (kapW) ====
+-- $NKWPC=-0.111$  [NK-SaM model]
+   Panel A (Y, pi relative to baseline NK-SaM):  eM: 1.042 / 0.960  eD: 1.008 / 1.013  eA: 1.012 / 1.021  eP: 1.031 / 1.036
+   NK-SaM / benchmark impact Y:  eM: 0.655  eA: 1.231  eP: 4.571   (baseline: 0.639 1.219 4.473)
+   NK-SaM / benchmark: impact pi  0.670 0.348 0.400 | cumulative Y  0.577 0.793 1.821 | impact N  0.706 -1.130 8.557
+   omega_shock NK-SaM: -1.868 -5.745 -3.869 -3.180 | benchmark: -1.321 -0.090 0.691
+   static slopes: levels 2.0342 / -7.0957, ratios 1.000 / 1.000
+   thresholds: omega*_q = -1.928, omega*_Xi = -2.313
+   dominant quadrant NK-SaM:  RI(60%) UC(59%) UC(76%) UC(78%)
+   search-effort alone: corr(lw,Y) = -0.881, corr(cu,Y) = 0.988, sd(cu)/sd(Y) = 0.449
+   monetary policy, impact, NK-SaM, $NKWPC_{Slope}=-0.111$ (high $\kappa_W$): real wage 0.124 %, capacity utilization -0.024 pp
+   steady state, NK-SaM, $NKWPC_{Slope}=-0.111$ (high $\kappa_W$): t=0.8599 n=1 h=0.497 d=0.21 dq=0.21 dp=7.455e-06 cu=0.86 q=0.86 x=1 ped=-6 ue=0.043 mcY=0.7167 pq=0.3922 kf=5.1e-06 kh=5.704e-06 ef=1
+   parameters, NK-SaM, $NKWPC_{Slope}=-0.111$ (high $\kappa_W$): epsW=12.38 kapW=197.2 kapP=173 epss=8.353 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.32 subQ=-0.0001 nuD=2 nuN=2 delT=1 delI=1 muN=0.4731 muD=26.16 muH=4.689 psiQ=0.86 psiD=4.761 psiH=0.5191 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 1.0000, dp/d = 0.0000
+   steady state, benchmark, $NKWPC_{Slope}=-0.111$ (high $\kappa_W$): t=0.9999 n=1 h=0.497 d=0.0001 dq=8.929e-05 dp=1.071e-05 cu=1 q=1 x=1 ped=-6 ue=0.043 mcY=0.8333 pq=8.334e-05 kf=8.255e-06 kh=6.633e-06 ef=1
+   parameters, benchmark, $NKWPC_{Slope}=-0.111$ (high $\kappa_W$): epsW=12.38 kapW=197.2 kapP=117.7 epss=6.001 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.0001 subQ=-1e-05 nuD=2 nuN=2 delT=1 delI=1 muN=0.6108 muD=7.443e+07 muH=4.349 psiQ=1 psiD=1.12e+04 psiH=0.6036 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 0.8929, dp/d = 0.1071
+-- $NKWPC=-0.179$  [NK-SaM model]
+   Panel A (Y, pi relative to baseline NK-SaM):  eM: 0.964 / 1.029  eD: 0.992 / 0.989  eA: 0.990 / 0.984  eP: 0.972 / 0.971
+   NK-SaM / benchmark impact Y:  eM: 0.623  eA: 1.209  eP: 4.384   (baseline: 0.639 1.219 4.473)
+   NK-SaM / benchmark: impact pi  0.597 0.340 0.387 | cumulative Y  0.543 0.782 1.705 | impact N  0.625 -1.026 8.192
+   omega_shock NK-SaM: -1.774 -5.797 -3.810 -3.228 | benchmark: -1.231 -0.109 0.647
+   static slopes: levels 2.0342 / -7.0957, ratios 1.000 / 1.000
+   thresholds: omega*_q = -1.928, omega*_Xi = -2.313
+   dominant quadrant NK-SaM:  RI(58%) UC(57%) UC(67%) UC(77%)
+   search-effort alone: corr(lw,Y) = -0.810, corr(cu,Y) = 0.987, sd(cu)/sd(Y) = 0.474
+   monetary policy, impact, NK-SaM, $NKWPC_{Slope}=-0.179$ (low $\kappa_W$): real wage 0.166 %, capacity utilization -0.001 pp
+   steady state, NK-SaM, $NKWPC_{Slope}=-0.179$ (low $\kappa_W$): t=0.8599 n=1 h=0.497 d=0.21 dq=0.21 dp=7.455e-06 cu=0.86 q=0.86 x=1 ped=-6 ue=0.043 mcY=0.7167 pq=0.3922 kf=5.1e-06 kh=5.704e-06 ef=1
+   parameters, NK-SaM, $NKWPC_{Slope}=-0.179$ (low $\kappa_W$): epsW=12.38 kapW=121.7 kapP=173 epss=8.353 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.32 subQ=-0.0001 nuD=2 nuN=2 delT=1 delI=1 muN=0.4731 muD=26.16 muH=4.689 psiQ=0.86 psiD=4.761 psiH=0.5191 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 1.0000, dp/d = 0.0000
+   steady state, benchmark, $NKWPC_{Slope}=-0.179$ (low $\kappa_W$): t=0.9999 n=1 h=0.497 d=0.0001 dq=8.929e-05 dp=1.071e-05 cu=1 q=1 x=1 ped=-6 ue=0.043 mcY=0.8333 pq=8.334e-05 kf=8.255e-06 kh=6.633e-06 ef=1
+   parameters, benchmark, $NKWPC_{Slope}=-0.179$ (low $\kappa_W$): epsW=12.38 kapW=121.7 kapP=117.7 epss=6.001 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.0001 subQ=-1e-05 nuD=2 nuN=2 delT=1 delI=1 muN=0.6108 muD=7.443e+07 muH=4.349 psiQ=1 psiD=1.12e+04 psiH=0.6036 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 0.8929, dp/d = 0.1071
+-- Flexible wages  [NK-SaM model]
+   Panel A (Y, pi relative to baseline NK-SaM):  eM: 0.271 / 1.282  eD: 0.820 / 0.844  eA: 0.794 / 0.845  eP: 0.328 / 0.593
+   NK-SaM / benchmark impact Y:  eM: 0.216  eA: 0.970  eP: 1.743   (baseline: 0.639 1.219 4.473)
+   NK-SaM / benchmark: impact pi  0.346 0.292 0.323 | cumulative Y  0.342 0.743 0.968 | impact N  -0.295 -0.194 3.120
+   omega_shock NK-SaM: -0.000 -0.000 0.000 0.000 | benchmark: 0.000 -0.000 -0.000
+   static slopes: levels 2.0342 / -7.0957, ratios 1.000 / 1.000
+   thresholds: omega*_q = -1.928, omega*_Xi = -2.313
+   dominant quadrant NK-SaM:  -- -- -- --
+   search-effort alone: corr(lw,Y) = 0.996, corr(cu,Y) = 1.000, sd(cu)/sd(Y) = 0.714
+   monetary policy, impact, NK-SaM, Flexible wages, $\kappa_W=0$: real wage 0.506 %, capacity utilization 0.191 pp
+   steady state, NK-SaM, Flexible wages, $\kappa_W=0$: t=0.8599 n=1 h=0.497 d=0.21 dq=0.21 dp=7.455e-06 cu=0.86 q=0.86 x=1 ped=-6 ue=0.043 mcY=0.7167 pq=0.3922 kf=5.1e-06 kh=5.704e-06 ef=1
+   parameters, NK-SaM, Flexible wages, $\kappa_W=0$: epsW=12.38 kapW=0 kapP=173 epss=8.353 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.32 subQ=-0.0001 nuD=2 nuN=2 delT=1 delI=1 muN=0.4731 muD=26.16 muH=4.689 psiQ=0.86 psiD=4.761 psiH=0.5191 ghh=0 labor_ext=0 ls_target=0
+   shopping time split: dq/d = 1.0000, dp/d = 0.0000
+   steady state, benchmark, Flexible wages, $\kappa_W=0$: t=0.9999 n=1 h=0.497 d=0.0001 dq=8.929e-05 dp=1.071e-05 cu=1 q=1 x=1 ped=-6 ue=0.043 mcY=0.8333 pq=8.334e-05 kf=8.255e-06 kh=6.633e-06 ef=1
+   parameters, benchmark, Flexible wages, $\kappa_W=0$: epsW=12.38 kapW=0 kapP=117.7 epss=6.001 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.0001 subQ=-1e-05 nuD=2 nuN=2 delT=1 delI=1 muN=0.6108 muD=7.443e+07 muH=4.349 psiQ=1 psiD=1.12e+04 psiH=0.6036 ghh=0 labor_ext=0 ls_target=0
+   shopping time split: dq/d = 0.8929, dp/d = 0.1071
+
+==== --. Adverse Literature Combinations of the Phillips-Curve Slopes (kapcorner) ====
+-- $(0.014,\,-0.179)$  [NK-SaM model]
+   Panel A (Y, pi relative to baseline NK-SaM):  eM: 1.038 / 0.385  eD: 0.986 / 0.299  eA: 0.952 / 0.400  eP: 0.964 / 0.290
+   NK-SaM / benchmark impact Y:  eM: 0.618  eA: 1.348  eP: 6.980   (baseline: 0.639 1.219 4.473)
+   NK-SaM / benchmark: impact pi  0.447 0.291 0.360 | cumulative Y  0.462 0.867 2.259 | impact N  0.603 -0.780 13.166
+   omega_shock NK-SaM: -1.709 -5.659 -2.668 -3.265 | benchmark: -1.105 -0.216 0.379
+   static slopes: levels 2.0342 / -7.0957, ratios 1.000 / 1.000
+   thresholds: omega*_q = -1.928, omega*_Xi = -2.313
+   dominant quadrant NK-SaM:  RI(91%) UC(57%) UC(65%) UC(77%)
+   search-effort alone: corr(lw,Y) = -0.854, corr(cu,Y) = 0.989, sd(cu)/sd(Y) = 0.467
+   monetary policy, impact, NK-SaM, Flat price, steep wage curve: real wage 0.199 %, capacity utilization 0.008 pp
+   steady state, NK-SaM, Flat price, steep wage curve: t=0.8599 n=1 h=0.497 d=0.21 dq=0.21 dp=7.455e-06 cu=0.86 q=0.86 x=1 ped=-6 ue=0.043 mcY=0.7167 pq=0.3922 kf=5.1e-06 kh=5.704e-06 ef=1
+   parameters, NK-SaM, Flat price, steep wage curve: epsW=12.38 kapW=121.7 kapP=630.3 epss=8.353 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.32 subQ=-0.0001 nuD=2 nuN=2 delT=1 delI=1 muN=0.4731 muD=26.16 muH=4.689 psiQ=0.86 psiD=4.761 psiH=0.5191 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 1.0000, dp/d = 0.0000
+   steady state, benchmark, Flat price, steep wage curve: t=0.9999 n=1 h=0.497 d=0.0001 dq=8.929e-05 dp=1.071e-05 cu=1 q=1 x=1 ped=-6 ue=0.043 mcY=0.8333 pq=8.334e-05 kf=8.255e-06 kh=6.633e-06 ef=1
+   parameters, benchmark, Flat price, steep wage curve: epsW=12.38 kapW=121.7 kapP=428.6 epss=6.001 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.0001 subQ=-1e-05 nuD=2 nuN=2 delT=1 delI=1 muN=0.6108 muD=7.443e+07 muH=4.349 psiQ=1 psiD=1.12e+04 psiH=0.6036 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 0.8929, dp/d = 0.1071
+-- $(0.063,\,-0.073)$  [NK-SaM model]
+   Panel A (Y, pi relative to baseline NK-SaM):  eM: 1.084 / 1.020  eD: 1.021 / 1.237  eA: 1.035 / 1.201  eP: 1.074 / 1.308
+   NK-SaM / benchmark impact Y:  eM: 0.673  eA: 1.219  eP: 4.257   (baseline: 0.639 1.219 4.473)
+   NK-SaM / benchmark: impact pi  0.789 0.362 0.417 | cumulative Y  0.615 0.794 1.825 | impact N  0.761 -1.291 7.960
+   omega_shock NK-SaM: -1.944 -5.488 -3.744 -3.140 | benchmark: -1.397 -0.047 0.795
+   static slopes: levels 2.0342 / -7.0957, ratios 1.000 / 1.000
+   thresholds: omega*_q = -1.928, omega*_Xi = -2.313
+   dominant quadrant NK-SaM:  UC(58%) UC(59%) UC(80%) UC(78%)
+   search-effort alone: corr(lw,Y) = -0.909, corr(cu,Y) = 0.988, sd(cu)/sd(Y) = 0.434
+   monetary policy, impact, NK-SaM, Steep price, flat wage curve: real wage 0.087 %, capacity utilization -0.042 pp
+   steady state, NK-SaM, Steep price, flat wage curve: t=0.8599 n=1 h=0.497 d=0.21 dq=0.21 dp=7.455e-06 cu=0.86 q=0.86 x=1 ped=-6 ue=0.043 mcY=0.7167 pq=0.3922 kf=5.1e-06 kh=5.704e-06 ef=1
+   parameters, NK-SaM, Steep price, flat wage curve: epsW=12.38 kapW=301.1 kapP=140.6 epss=8.353 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.32 subQ=-0.0001 nuD=2 nuN=2 delT=1 delI=1 muN=0.4731 muD=26.16 muH=4.689 psiQ=0.86 psiD=4.761 psiH=0.5191 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 1.0000, dp/d = 0.0000
+   steady state, benchmark, Steep price, flat wage curve: t=0.9999 n=1 h=0.497 d=0.0001 dq=8.929e-05 dp=1.071e-05 cu=1 q=1 x=1 ped=-6 ue=0.043 mcY=0.8333 pq=8.334e-05 kf=8.255e-06 kh=6.633e-06 ef=1
+   parameters, benchmark, Steep price, flat wage curve: epsW=12.38 kapW=301.1 kapP=95.61 epss=6.001 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.0001 subQ=-1e-05 nuD=2 nuN=2 delT=1 delI=1 muN=0.6108 muD=7.443e+07 muH=4.349 psiQ=1 psiD=1.12e+04 psiH=0.6036 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 0.8929, dp/d = 0.1071
+
+==== 8. No Home Production (nohp) ====
+-- $\gamma_H=0.02$  [NK-SaM model]
+   Panel A (Y, pi relative to baseline NK-SaM):  eM: 0.784 / 0.968  eD: 0.767 / 1.138  eA: 0.798 / 1.190  eP: 0.766 / 1.065
+   NK-SaM / benchmark impact Y:  eM: 0.674  eA: 1.211  eP: 4.791   (baseline: 0.639 1.219 4.473)
+   NK-SaM / benchmark: impact pi  0.646 0.365 0.406 | cumulative Y  0.580 0.796 1.844 | impact N  0.700 -0.457 10.142
+   omega_shock NK-SaM: -2.085 4.019 -3.822 -4.052 | benchmark: -1.454 -0.290 0.574
+   static slopes: levels 2.3604 / -8.2337, ratios 1.160 / 1.160
+   thresholds: omega*_q = -2.237, omega*_Xi = -2.684
+   dominant quadrant NK-SaM:  RI(60%) UC(66%) UC(51%) UC(76%)
+   search-effort alone: corr(lw,Y) = 0.419, corr(cu,Y) = 0.995, sd(cu)/sd(Y) = 0.605
+   monetary policy, impact, NK-SaM, No home production: real wage 0.137 %, capacity utilization -0.009 pp
+   steady state, NK-SaM, No home production: t=0.8599 n=1 h=0.0001 d=0.21 dq=0.21 dp=7.455e-06 cu=0.86 q=0.86 x=1 ped=-6 ue=0.043 mcY=0.7167 pq=0.3922 kf=5.1e-06 kh=1.737e-07 ef=1
+   parameters, NK-SaM, No home production: epsW=12.38 kapW=150.5 kapP=173 epss=8.353 alpF=1e-05 alpH=1e-05 gamH=0.02 gamP=1e-05 gamQ=0.32 subQ=-0.0001 nuD=2 nuN=2 delT=1 delI=1 muN=0.6376 muD=35.25 muH=2.363e+10 psiQ=0.86 psiD=4.761 psiH=0.8599 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 1.0000, dp/d = 0.0000
+   steady state, benchmark, No home production: t=0.9999 n=1 h=0.0001 d=0.0001 dq=8.929e-05 dp=1.071e-05 cu=1 q=1 x=1 ped=-6 ue=0.043 mcY=0.8333 pq=8.334e-05 kf=8.255e-06 kh=2.02e-07 ef=1
+   parameters, benchmark, No home production: epsW=12.38 kapW=150.5 kapP=117.7 epss=6.001 alpF=1e-05 alpH=1e-05 gamH=0.02 gamP=1e-05 gamQ=0.0001 subQ=-1e-05 nuD=2 nuN=2 delT=1 delI=1 muN=0.8231 muD=1.003e+08 muH=2.191e+10 psiQ=1 psiD=1.12e+04 psiH=0.9999 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 0.8929, dp/d = 0.1071
+
+==== 9. GHH Preferences (ghh) ====
+-- $\mathbb{I}_{\mathrm{GHH}}=1$  [NK-SaM model]
+   Panel A (Y, pi relative to baseline NK-SaM):  eM: 1.674 / 1.052  eD: 0.942 / 1.360  eA: 1.180 / 1.411  eP: 1.739 / 0.885
+   NK-SaM / benchmark impact Y:  eM: 0.612  eA: 3.250  eP: 4.020   (baseline: 0.639 1.219 4.473)
+   NK-SaM / benchmark: impact pi  0.627 0.372 0.369 | cumulative Y  0.547 0.866 1.632 | impact N  0.633 -0.726 6.111
+   omega_shock NK-SaM: -1.333 -0.439 0.741 -2.048 | benchmark: -0.940 -0.573 0.775
+   static slopes: levels 1.4665 / -5.1155, ratios 0.721 / 0.721
+   thresholds: omega*_q = -1.390, omega*_Xi = -1.668
+   dominant quadrant NK-SaM:  RI(54%) KU(89%) UC(51%) UC(79%)
+   search-effort alone: corr(lw,Y) = -0.966, corr(cu,Y) = 0.999, sd(cu)/sd(Y) = 0.491
+   monetary policy, impact, NK-SaM, GHH preferences: real wage 0.168 %, capacity utilization -0.018 pp
+   steady state, NK-SaM, GHH preferences: t=0.8599 n=1 h=0.497 d=0.21 dq=0.21 dp=7.455e-06 cu=0.86 q=0.86 x=1 ped=-6 ue=0.043 mcY=0.7167 pq=0.3922 kf=5.1e-06 kh=5.704e-06 ef=1
+   parameters, NK-SaM, GHH preferences: epsW=12.38 kapW=150.5 kapP=173 epss=8.353 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.32 subQ=-0.0001 nuD=2 nuN=2 delT=1 delI=1 muN=0.1599 muD=8.842 muH=1.585 psiQ=0.86 psiD=4.761 psiH=0.5191 ghh=1 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 1.0000, dp/d = 0.0000
+   steady state, benchmark, GHH preferences: t=0.9999 n=1 h=0.497 d=0.0001 dq=8.929e-05 dp=1.071e-05 cu=1 q=1 x=1 ped=-6 ue=0.043 mcY=0.8333 pq=8.334e-05 kf=8.255e-06 kh=6.633e-06 ef=1
+   parameters, benchmark, GHH preferences: epsW=12.38 kapW=150.5 kapP=117.7 epss=6.001 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.0001 subQ=-1e-05 nuD=2 nuN=2 delT=1 delI=1 muN=0.2589 muD=3.155e+07 muH=1.843 psiQ=1 psiD=1.12e+04 psiH=0.6036 ghh=1 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 0.8929, dp/d = 0.1071
+
+==== 10. Employment Adjustment Costs and Wage Rigidity (hours) ====
+-- $\kappa_N=2.89$, baseline $NKWPC$  [NK-SaM model]
+   Panel A (Y, pi relative to baseline NK-SaM):  eM: 0.592 / 1.078  eD: 0.801 / 0.861  eA: 0.819 / 0.921  eP: 0.233 / 0.644
+   NK-SaM / benchmark impact Y:  eM: 0.430  eA: 0.935  eP: 1.323   (baseline: 0.639 1.219 4.473)
+   NK-SaM / benchmark: impact pi  0.367 0.248 0.307 | cumulative Y  0.497 0.759 1.053 | impact N  0.188 -0.354 2.363
+   omega_shock NK-SaM: -1.773 1.004 1.138 -0.995 | benchmark: -1.300 0.006 1.611
+   static slopes: levels NaN / NaN, ratios NaN / NaN
+   thresholds: omega*_q = NaN, omega*_Xi = NaN
+   dominant quadrant NK-SaM:  RI(97%) UC(88%) UC(52%) UC(72%)
+   search-effort alone: corr(lw,Y) = 0.925, corr(cu,Y) = 0.997, sd(cu)/sd(Y) = 0.718
+   monetary policy, impact, NK-SaM, $\kappa_N=2.89$: real wage 0.341 %, capacity utilization 0.099 pp
+   steady state, NK-SaM, $\kappa_N=2.89$: t=0.8599 n=1 h=0.497 d=0.21 dq=0.21 dp=7.455e-06 cu=0.86 q=0.86 x=1 ped=-6 ue=0.043 mcY=0.7167 pq=0.3922 kf=5.1e-06 kh=5.704e-06 ef=1
+   parameters, NK-SaM, $\kappa_N=2.89$: epsW=12.38 kapW=150.5 kapP=173 epss=8.353 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.32 subQ=-0.0001 nuD=2 nuN=2 delT=1 delI=1 muN=0.4731 muD=26.16 muH=4.689 psiQ=0.86 psiD=4.761 psiH=0.5191 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 1.0000, dp/d = 0.0000
+   steady state, benchmark, $\kappa_N=2.89$: t=0.9999 n=1 h=0.497 d=0.0001 dq=8.929e-05 dp=1.071e-05 cu=1 q=1 x=1 ped=-6 ue=0.043 mcY=0.8333 pq=8.334e-05 kf=8.255e-06 kh=6.633e-06 ef=1
+   parameters, benchmark, $\kappa_N=2.89$: epsW=12.38 kapW=150.5 kapP=117.7 epss=6.001 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.0001 subQ=-1e-05 nuD=2 nuN=2 delT=1 delI=1 muN=0.6108 muD=7.443e+07 muH=4.349 psiQ=1 psiD=1.12e+04 psiH=0.6036 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 0.8929, dp/d = 0.1071
+-- $\kappa_N=2.89$, $NKWPC=-0.111$  [NK-SaM model]
+   Panel A (Y, pi relative to baseline NK-SaM):  eM: 0.606 / 1.049  eD: 0.802 / 0.866  eA: 0.822 / 0.934  eP: 0.237 / 0.659
+   NK-SaM / benchmark impact Y:  eM: 0.434  eA: 0.937  eP: 1.336   (baseline: 0.639 1.219 4.473)
+   NK-SaM / benchmark: impact pi  0.376 0.250 0.309 | cumulative Y  0.509 0.764 1.084 | impact N  0.207 -0.374 2.392
+   omega_shock NK-SaM: -1.842 1.036 -0.551 -1.837 | benchmark: -1.351 0.022 1.705
+   static slopes: levels NaN / NaN, ratios NaN / NaN
+   thresholds: omega*_q = NaN, omega*_Xi = NaN
+   dominant quadrant NK-SaM:  RI(97%) UC(89%) UC(64%) UC(73%)
+   search-effort alone: corr(lw,Y) = 0.910, corr(cu,Y) = 0.996, sd(cu)/sd(Y) = 0.714
+   monetary policy, impact, NK-SaM, $\kappa_N=2.89$, $NKWPC_{Slope}=-0.111$: real wage 0.332 %, capacity utilization 0.094 pp
+   steady state, NK-SaM, $\kappa_N=2.89$, $NKWPC_{Slope}=-0.111$: t=0.8599 n=1 h=0.497 d=0.21 dq=0.21 dp=7.455e-06 cu=0.86 q=0.86 x=1 ped=-6 ue=0.043 mcY=0.7167 pq=0.3922 kf=5.1e-06 kh=5.704e-06 ef=1
+   parameters, NK-SaM, $\kappa_N=2.89$, $NKWPC_{Slope}=-0.111$: epsW=12.38 kapW=197.2 kapP=173 epss=8.353 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.32 subQ=-0.0001 nuD=2 nuN=2 delT=1 delI=1 muN=0.4731 muD=26.16 muH=4.689 psiQ=0.86 psiD=4.761 psiH=0.5191 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 1.0000, dp/d = 0.0000
+   steady state, benchmark, $\kappa_N=2.89$, $NKWPC_{Slope}=-0.111$: t=0.9999 n=1 h=0.497 d=0.0001 dq=8.929e-05 dp=1.071e-05 cu=1 q=1 x=1 ped=-6 ue=0.043 mcY=0.8333 pq=8.334e-05 kf=8.255e-06 kh=6.633e-06 ef=1
+   parameters, benchmark, $\kappa_N=2.89$, $NKWPC_{Slope}=-0.111$: epsW=12.38 kapW=197.2 kapP=117.7 epss=6.001 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.0001 subQ=-1e-05 nuD=2 nuN=2 delT=1 delI=1 muN=0.6108 muD=7.443e+07 muH=4.349 psiQ=1 psiD=1.12e+04 psiH=0.6036 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 0.8929, dp/d = 0.1071
+-- $\kappa_N=2.89$, $NKWPC=-0.179$  [NK-SaM model]
+   Panel A (Y, pi relative to baseline NK-SaM):  eM: 0.580 / 1.098  eD: 0.800 / 0.857  eA: 0.816 / 0.911  eP: 0.229 / 0.633
+   NK-SaM / benchmark impact Y:  eM: 0.427  eA: 0.933  eP: 1.312   (baseline: 0.639 1.219 4.473)
+   NK-SaM / benchmark: impact pi  0.360 0.247 0.306 | cumulative Y  0.488 0.756 1.031 | impact N  0.172 -0.338 2.339
+   omega_shock NK-SaM: -1.713 0.969 2.118 -0.138 | benchmark: -1.254 -0.007 1.527
+   static slopes: levels NaN / NaN, ratios NaN / NaN
+   thresholds: omega*_q = NaN, omega*_Xi = NaN
+   dominant quadrant NK-SaM:  RI(95%) UC(90%) UC(51%) UC(68%)
+   search-effort alone: corr(lw,Y) = 0.936, corr(cu,Y) = 0.997, sd(cu)/sd(Y) = 0.722
+   monetary policy, impact, NK-SaM, $\kappa_N=2.89$, $NKWPC_{Slope}=-0.179$: real wage 0.349 %, capacity utilization 0.103 pp
+   steady state, NK-SaM, $\kappa_N=2.89$, $NKWPC_{Slope}=-0.179$: t=0.8599 n=1 h=0.497 d=0.21 dq=0.21 dp=7.455e-06 cu=0.86 q=0.86 x=1 ped=-6 ue=0.043 mcY=0.7167 pq=0.3922 kf=5.1e-06 kh=5.704e-06 ef=1
+   parameters, NK-SaM, $\kappa_N=2.89$, $NKWPC_{Slope}=-0.179$: epsW=12.38 kapW=121.7 kapP=173 epss=8.353 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.32 subQ=-0.0001 nuD=2 nuN=2 delT=1 delI=1 muN=0.4731 muD=26.16 muH=4.689 psiQ=0.86 psiD=4.761 psiH=0.5191 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 1.0000, dp/d = 0.0000
+   steady state, benchmark, $\kappa_N=2.89$, $NKWPC_{Slope}=-0.179$: t=0.9999 n=1 h=0.497 d=0.0001 dq=8.929e-05 dp=1.071e-05 cu=1 q=1 x=1 ped=-6 ue=0.043 mcY=0.8333 pq=8.334e-05 kf=8.255e-06 kh=6.633e-06 ef=1
+   parameters, benchmark, $\kappa_N=2.89$, $NKWPC_{Slope}=-0.179$: epsW=12.38 kapW=121.7 kapP=117.7 epss=6.001 alpF=1e-05 alpH=1e-05 gamH=0.55 gamP=1e-05 gamQ=0.0001 subQ=-1e-05 nuD=2 nuN=2 delT=1 delI=1 muN=0.6108 muD=7.443e+07 muH=4.349 psiQ=1 psiD=1.12e+04 psiH=0.6036 ghh=0 labor_ext=1 ls_target=0
+   shopping time split: dq/d = 0.8929, dp/d = 0.1071
+
+==== 11. Capital and Capital Utilization (capital) ====
+-- Fixed utilization  [NK-SaM model]
+   Panel A (Y, pi relative to baseline NK-SaM):  eM: 0.773 / 1.042  eD: 0.841 / 0.892  eA: 0.667 / 0.566  eP: 0.646 / 0.816
+   NK-SaM / benchmark impact Y:  eM: 0.608  eA: 1.220  eP: 3.791   (baseline: 0.639 1.219 4.473)
+   NK-SaM / benchmark: impact pi  0.500 0.279 0.349 | cumulative Y  0.542 0.736 1.336 | impact N  0.532 -0.517 7.438
+   omega_shock NK-SaM: -1.952 8.042 -14.731 -5.412 | benchmark: -1.462 -0.682 0.830
+   static slopes: levels NaN / NaN, ratios NaN / NaN
+   thresholds: omega*_q = NaN, omega*_Xi = NaN
+   dominant quadrant NK-SaM:  RI(90%) UC(90%) UC(93%) UC(76%)
+   search-effort alone: corr(lw,Y) = -0.861, corr(cu,Y) = 0.999, sd(cu)/sd(Y) = 0.597
+   monetary policy, impact, NK-SaM, Capital, fixed utilization: real wage 0.141 %, capacity utilization 0.029 pp
+   steady state, NK-SaM, Capital, fixed utilization: t=1.245 n=1 h=0.497 d=0.21 dq=0.21 dp=7.455e-06 cu=0.86 q=0.86 x=1 ped=-6 ue=0.043 mcY=0.7167 pq=0.3922 kf=4.925 kh=6.846 ef=1
+   parameters, NK-SaM, Capital, fixed utilization: epsW=12.38 kapW=150.5 kapP=173 epss=8.353 alpF=0.232 alpH=0.33 gamH=0.55 gamP=1e-05 gamQ=0.32 subQ=-0.0001 nuD=2 nuN=2 delT=1 delI=1 muN=0.4044 muD=29.11 muH=3.055 psiQ=0.86 psiD=6.893 psiH=0.1794 ghh=0 labor_ext=1 ls_target=1
+   shopping time split: dq/d = 1.0000, dp/d = 0.0000
+   utilization, NK-SaM, Capital, fixed utilization: max|IRF|  ef = 0.00192  eh = 0.000483
+   utilization, benchmark, Capital, fixed utilization: max|IRF|  ef = 0.000401  eh = 0.000243
+   steady state, benchmark, Capital, fixed utilization: t=1.674 n=1 h=0.497 d=0.0001 dq=8.929e-05 dp=1.071e-05 cu=1 q=1 x=1 ped=-6 ue=0.043 mcY=0.8333 pq=8.334e-05 kf=9.219 kh=8.99 ef=1
+   parameters, benchmark, Capital, fixed utilization: epsW=12.38 kapW=150.5 kapP=117.7 epss=6.001 alpF=0.232 alpH=0.33 gamH=0.55 gamP=1e-05 gamQ=0.0001 subQ=-1e-05 nuD=2 nuN=2 delT=1 delI=1 muN=0.5107 muD=8.102e+07 muH=2.706 psiQ=1 psiD=1.875e+04 psiH=0.2441 ghh=0 labor_ext=1 ls_target=1
+   shopping time split: dq/d = 0.8929, dp/d = 0.1071
+-- Variable utilization  [NK-SaM model]
+   Panel A (Y, pi relative to baseline NK-SaM):  eM: 0.721 / 1.119  eD: 0.918 / 0.926  eA: 0.717 / 0.589  eP: 0.893 / 0.965
+   NK-SaM / benchmark impact Y:  eM: 0.533  eA: 1.306  eP: 3.970   (baseline: 0.639 1.219 4.473)
+   NK-SaM / benchmark: impact pi  0.630 0.324 0.398 | cumulative Y  0.415 0.749 1.320 | impact N  0.548 -0.766 7.196
+   omega_shock NK-SaM: -2.186 -13.278 -6.435 -4.372 | benchmark: -1.248 -0.222 0.570
+   static slopes: levels NaN / NaN, ratios NaN / NaN
+   thresholds: omega*_q = NaN, omega*_Xi = NaN
+   dominant quadrant NK-SaM:  RI(92%) UC(66%) UC(96%) UC(78%)
+   search-effort alone: corr(lw,Y) = -0.942, corr(cu,Y) = 0.998, sd(cu)/sd(Y) = 0.585
+   monetary policy, impact, NK-SaM, Capital, variable utilization: real wage 0.139 %, capacity utilization 0.013 pp
+   steady state, NK-SaM, Capital, variable utilization: t=1.245 n=1 h=0.497 d=0.21 dq=0.21 dp=7.455e-06 cu=0.86 q=0.86 x=1 ped=-6 ue=0.043 mcY=0.7167 pq=0.3922 kf=4.925 kh=6.846 ef=1
+   parameters, NK-SaM, Capital, variable utilization: epsW=12.38 kapW=150.5 kapP=173 epss=8.353 alpF=0.232 alpH=0.33 gamH=0.55 gamP=1e-05 gamQ=0.32 subQ=-0.0001 nuD=2 nuN=2 delT=1 delI=1 muN=0.4044 muD=29.11 muH=3.055 psiQ=0.86 psiD=6.893 psiH=0.1794 ghh=0 labor_ext=1 ls_target=1
+   shopping time split: dq/d = 1.0000, dp/d = 0.0000
+   utilization, NK-SaM, Capital, variable utilization: max|IRF|  ef = 1.62  eh = 0.486
+   utilization, benchmark, Capital, variable utilization: max|IRF|  ef = 0.268  eh = 0.219
+   steady state, benchmark, Capital, variable utilization: t=1.674 n=1 h=0.497 d=0.0001 dq=8.929e-05 dp=1.071e-05 cu=1 q=1 x=1 ped=-6 ue=0.043 mcY=0.8333 pq=8.334e-05 kf=9.219 kh=8.99 ef=1
+   parameters, benchmark, Capital, variable utilization: epsW=12.38 kapW=150.5 kapP=117.7 epss=6.001 alpF=0.232 alpH=0.33 gamH=0.55 gamP=1e-05 gamQ=0.0001 subQ=-1e-05 nuD=2 nuN=2 delT=1 delI=1 muN=0.5107 muD=8.102e+07 muH=2.706 psiQ=1 psiD=1.875e+04 psiH=0.2441 ghh=0 labor_ext=1 ls_target=1
+   shopping time split: dq/d = 0.8929, dp/d = 0.1071
+
+Search-effort shock alone, baseline and all variants (n = 28): sd(cu)/sd(Y) from 0.434 to 1.100; corr(sd(cu)/sd(Y), corr(lw,Y)) = 0.856

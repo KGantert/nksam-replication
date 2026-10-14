@@ -1,0 +1,12 @@
+Channel slopes at the baseline calibration (main_s5_slope_summary.m, 14-Oct-2026 19:51:04)
+channel                              SaM Th_Y   SaM Th_u Bench Th_Y Bench Th_u
+Dynamic IS slope                       8.1119     3.0675     1.0163     0.0000
+Price Phillips slope                   0.1538     0.0665     0.1538     0.0978
+Real wage growth slope                 5.3812     2.5308     3.0161     1.9175
+Utilization gap elasticity             2.0342     1.0553        NaN        NaN
+Price-elasticity gap elasticity       -7.0957    -3.0675        NaN        NaN
+
+Proposition 2 (dynamic IS): phi_C = 1.0163, direct layer = 1.1827, tightness-layer coefficient = 2.9068
+beta*_q  = -Theta_Y^q/Theta_u^q            = -1.9276
+beta*_Xi = -(Theta_Y^M - phi_C)/Theta_u^M  = -2.3132
+beta*_Xi = -Theta_Y^Xi/Theta_u^Xi (check)  = -2.3132

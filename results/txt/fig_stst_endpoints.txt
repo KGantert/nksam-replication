@@ -1,0 +1,10 @@
+
+Experiment 1 (fixed parameters), gamQ = 0.320, ratios SaM/NK (search price: level)
+ epsilon search price   price elast.         markup     output
+    3.50        0.296          0.771          1.134      0.750
+    6.00        0.364          0.733          1.078      0.751
+   31.00        0.449          0.690          1.015      0.752
+
+Output ratio at gamQ = 0.320 by psiQ: 0.625 0.751 0.877   (psiQ = 0.72 0.86 1.00)
+Output ratio at gamQ = 0 (first grid point), by epsilon: 0.857 0.857 0.857
+Experiment 2 (targeted), gamQ = 0.320: eps ratio SaM/NK by markup: 1.471 1.392 1.336;  search price by markup: 0.471 0.392 0.336

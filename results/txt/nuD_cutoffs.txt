@@ -1,0 +1,37 @@
+nu_D cutoffs: NK-SaM slope = benchmark slope (print Appendix C, sec:cutoff_nuD)
+Closed forms at Gamma_Q = -0.0001 (~Cobb-Douglas), nuN = 2.0000; numerical crossings
+from the slope curves on the nuD grid [1.0000, 3.0000] (51 points), Gamma_Q~0 variant.
+============================================================================================
+
+gamQ cutoff (zeta = 0): closed form (mp-1)/mp = 0.1667, numerical = 0.1667
+
+gamQ = 0.1100:  epsilon = 6.6180, phi_gamma = 0.1100, phi_Xi = 0.0934, zeta = -0.3820, phi_C = 1.0162 (benchmark 1.0162), markup M/(M-1) = 1.2000
+                                closed form     numerical crossing
+--------------------------------------------------------------------------------------------
+  PC,  output gap                    2.0000                 2.0004
+  PC,  unemployment gap              2.6000                 2.6006
+  RWG, output gap                    1.0426                 1.0428
+  RWG, unemployment gap              1.4000                 1.4002
+  feedback loop Theta_q^q > 0 for every nuD (zeta < 0)
+
+gamQ = 0.1667:  epsilon = 7.0001, phi_gamma = 0.1667, phi_Xi = 0.1429, zeta = 0.0000, phi_C = 1.0162 (benchmark 1.0162), markup M/(M-1) = 1.2000
+                                closed form     numerical crossing
+--------------------------------------------------------------------------------------------
+  PC,  output gap                    2.0000                 2.0003
+  PC,  unemployment gap              2.6000                 2.6004
+  RWG, output gap                    0.9991  none in range (above)
+  RWG, unemployment gap              1.4000                 1.4001
+  feedback loop Theta_q^q > 0 for every nuD (zeta = 0)
+
+gamQ = 0.3200:  epsilon = 8.3530, phi_gamma = 0.3200, phi_Xi = 0.2817, zeta = 1.3530, phi_C = 1.0162 (benchmark 1.0162), markup M/(M-1) = 1.2000
+                                closed form     numerical crossing
+--------------------------------------------------------------------------------------------
+  PC,  output gap                    2.0000                 2.0001
+  PC,  unemployment gap              2.6000                 2.6003
+  RWG, output gap                    0.8588  none in range (above)
+  RWG, unemployment gap              1.4000                 1.4001
+  feedback loop Theta_q^q < 0 for nuD > 5.2608 (= 2.63 nuN)
+
+Closed forms hold at Gamma_Q = 0 only (tightness leg off); for Gamma_Q = -2.7 and
+Gamma_Q -> -inf see the crossing column of results/txt/fig_slopes_5eq_ee_pc_rw.txt.
+

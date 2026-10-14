@@ -1,0 +1,10 @@
+tab:emp_checks -- correlations with real GDP, NK-SaM model, each shock in isolation (online_V4_emp_checks.m, 2026-10-14 19:53)
+'*' = sign matches the data column.
+
+Variable          Data            TFP         Policy      Cost-Push         Search  Matching Eff.
+-------------------------------------------------------------------------------------------------
+Marginal cost        -        -0.96 *         0.87           0.96          -1.00 *        -1.00 *
+Search effort        +        -0.96           0.87 *        -1.00           1.00 *        -1.00  
+Labor wedge          -        -0.15 *        -0.91 *        -1.00 *        -0.85 *        -0.84 *
+-------------------------------------------------------------------------------------------------
+Checks matched                 2 of 3         2 of 3         1 of 3         3 of 3         2 of 3

@@ -1,0 +1,93 @@
+Figure: Labor Wedge, Total Search Effort & Marginal Cost Gap (output and unemployment gaps)
+nuD range: [1.0000, 3.0000]
+Benchmark crossing: nuD where the NK-SaM slope equals the NK reference (linear interpolation on the nuD grid).
+============================================================================================
+
+Panel: Output Gap -- Labor Wedge
+  Default calibration (gamQ=0.3200, nuD=2.0000):  5.0961
+                                        nuD=1.0000    nuD=3.0000  benchmark crossing (nuD)
+--------------------------------------------------------------------------------------------
+  gamQ=0.1100 | GamQ=-2.7 (CES)            -0.9332       -1.0950  none in range (above)
+  gamQ=0.1100 | GamQ~0 (CD, default)        0.1496       -0.3633  none in range (above)
+  gamQ=0.1667 | GamQ=-2.7 (CES)            -0.4125       -0.4125  none in range (above)
+  gamQ=0.1667 | GamQ~0 (CD, default)        1.0161        1.0161  none in range (above)
+  gamQ=0.3200 | GamQ=-2.7 (CES)             1.0199        2.7253  none in range (above)
+  gamQ=0.3200 | GamQ~0 (CD, default)        3.0997        8.8574  none in range (above)
+  gamQ=0.1100 | GamQ->-inf                 -1.9995       -1.9995  coincides with benchmark
+  gamQ=0.1667 | GamQ->-inf                 -1.9991       -1.9991  coincides with benchmark
+  gamQ=0.3200 | GamQ->-inf                 -1.9980       -1.9978  coincides with benchmark
+  NK reference                             -1.9997  (constant)
+
+Panel: Unemployment Gap -- Labor Wedge
+  Default calibration (gamQ=0.3200, nuD=2.0000):  3.6813
+                                        nuD=1.0000    nuD=3.0000  benchmark crossing (nuD)
+--------------------------------------------------------------------------------------------
+  gamQ=0.1100 | GamQ=-2.7 (CES)             0.7084        0.6286  none in range (above)
+  gamQ=0.1100 | GamQ~0 (CD, default)        1.4273        1.1369  none in range (above)
+  gamQ=0.1667 | GamQ=-2.7 (CES)             1.0092        1.0092  none in range (above)
+  gamQ=0.1667 | GamQ~0 (CD, default)        1.9175        1.9175  none in range (above)
+  gamQ=0.3200 | GamQ=-2.7 (CES)             1.6684        2.3105  none in range (above)
+  gamQ=0.3200 | GamQ~0 (CD, default)        2.8175        5.3088  none in range (above)
+  gamQ=0.1100 | GamQ->-inf                  0.0004        0.0004  coincides with benchmark
+  gamQ=0.1667 | GamQ->-inf                  0.0006        0.0006  coincides with benchmark
+  gamQ=0.3200 | GamQ->-inf                  0.0011        0.0011  coincides with benchmark
+  NK reference                              0.0002  (constant)
+
+Panel: Output Gap -- Total Search Effort
+  Default calibration (gamQ=0.3200, nuD=2.0000):  6.0270
+                                        nuD=1.0000    nuD=3.0000  benchmark crossing (nuD)
+--------------------------------------------------------------------------------------------
+  gamQ=0.1100 | GamQ=-2.7 (CES)             3.8779        3.4423  -
+  gamQ=0.1100 | GamQ~0 (CD, default)        6.7988        5.4164  -
+  gamQ=0.1667 | GamQ=-2.7 (CES)             3.6463        3.6468  -
+  gamQ=0.1667 | GamQ~0 (CD, default)        6.0277        6.0285  -
+  gamQ=0.3200 | GamQ=-2.7 (CES)             3.1393        4.3477  -
+  gamQ=0.3200 | GamQ~0 (CD, default)        4.6126        8.6918  -
+  gamQ=0.1100 | GamQ->-inf                  1.0018        1.0019  -
+  gamQ=0.1667 | GamQ->-inf                  1.0016        1.0018  -
+  gamQ=0.3200 | GamQ->-inf                  1.0015        1.0017  -
+
+Panel: Unemployment Gap -- Total Search Effort
+  Default calibration (gamQ=0.3200, nuD=2.0000):  2.6078
+                                        nuD=1.0000    nuD=3.0000  benchmark crossing (nuD)
+--------------------------------------------------------------------------------------------
+  gamQ=0.1100 | GamQ=-2.7 (CES)             1.9108        1.6962  -
+  gamQ=0.1100 | GamQ~0 (CD, default)        3.8503        3.0674  -
+  gamQ=0.1667 | GamQ=-2.7 (CES)             1.6823        1.6825  -
+  gamQ=0.1667 | GamQ~0 (CD, default)        3.1962        3.1967  -
+  gamQ=0.3200 | GamQ=-2.7 (CES)             1.1819        1.6368  -
+  gamQ=0.3200 | GamQ~0 (CD, default)        1.9958        3.7609  -
+  gamQ=0.1100 | GamQ->-inf                  0.0010        0.0010  -
+  gamQ=0.1667 | GamQ->-inf                  0.0010        0.0010  -
+  gamQ=0.3200 | GamQ->-inf                  0.0008        0.0008  -
+
+Panel: Output Gap -- Marginal Cost Gap
+  Default calibration (gamQ=0.3200, nuD=2.0000):  3.0158
+                                        nuD=1.0000    nuD=3.0000  benchmark crossing (nuD)
+--------------------------------------------------------------------------------------------
+  gamQ=0.1100 | GamQ=-2.7 (CES)             2.7497        3.5300  1.630
+  gamQ=0.1100 | GamQ~0 (CD, default)        2.2683        3.6110  2.000
+  gamQ=0.1667 | GamQ=-2.7 (CES)             2.6466        3.8614  1.608
+  gamQ=0.1667 | GamQ~0 (CD, default)        2.0116        4.0198  2.000
+  gamQ=0.3200 | GamQ=-2.7 (CES)             2.4646        5.1155  1.533
+  gamQ=0.3200 | GamQ~0 (CD, default)        1.5402        5.7960  2.000
+  gamQ=0.1100 | GamQ->-inf                  3.2236        3.4298  none in range (above)
+  gamQ=0.1667 | GamQ->-inf                  3.3518        3.6855  none in range (above)
+  gamQ=0.3200 | GamQ->-inf                  3.8060        4.5913  none in range (above)
+  NK reference                              3.0160  (constant)
+
+Panel: Unemployment Gap -- Marginal Cost Gap
+  Default calibration (gamQ=0.3200, nuD=2.0000):  1.3037
+                                        nuD=1.0000    nuD=3.0000  benchmark crossing (nuD)
+--------------------------------------------------------------------------------------------
+  gamQ=0.1100 | GamQ=-2.7 (CES)             1.6027        1.9872  2.600
+  gamQ=0.1100 | GamQ~0 (CD, default)        1.2831        2.0434  2.601
+  gamQ=0.1667 | GamQ=-2.7 (CES)             1.4690        2.0294  2.600
+  gamQ=0.1667 | GamQ~0 (CD, default)        1.0652        2.1301  2.600
+  gamQ=0.3200 | GamQ=-2.7 (CES)             1.1760        2.1740  2.600
+  gamQ=0.3200 | GamQ~0 (CD, default)        0.6653        2.5067  2.600
+  gamQ=0.1100 | GamQ->-inf                  1.9174        1.9176  coincides with benchmark
+  gamQ=0.1667 | GamQ->-inf                  1.9173        1.9176  coincides with benchmark
+  gamQ=0.3200 | GamQ->-inf                  1.9171        1.9177  coincides with benchmark
+  NK reference                              1.9174  (constant)
+

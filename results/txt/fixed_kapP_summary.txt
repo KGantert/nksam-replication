@@ -1,0 +1,10 @@
+FIXED kappa_P (robustness check 5), reduced-form model -- 14-Oct-2026 20:03:34
+
+kappa_P fixed at 117.65 in both models (benchmark eps/NKPC_Slope)
+Slope-targeted kappa_P: NK-SaM 173.01, benchmark 117.65
+Labor-share Phillips-curve slope under fixed kappa_P: NK-SaM 0.0750, benchmark 0.0510 (target 0.0510), ratio 1.47
+
+Price Phillips-curve slopes at the baseline (gamma_Q = 0.32, Gamma_Q ~ 0, nu_D = nu_N):
+                           targeted        fixed    benchmark
+output gap (AS_t)             0.154        0.226        0.154
+unemployment gap (AS_ue)        0.066        0.098        0.098

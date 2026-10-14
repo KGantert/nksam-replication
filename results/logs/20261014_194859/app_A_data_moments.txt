@@ -1,0 +1,9 @@
+
+[run_all] ===== scripts/app_A_data_moments.m =====
+[run_all] App. A (also Intro, OA V.4, OA VI): corr(cu,Y), sd(cu)/sd(Y) in the data
+Capacity utilization vs. real GDP, 1984Q1-2019Q4 (app_A_data_moments.m)
+  corr(cu, Y)    = 0.40
+  sd(cu) / sd(Y) = 1.51
+  sd(cu)         = 1.96 %
+  sd(Y)          = 1.29 %
+  mean(TCU raw)  = 79.3 % (industry only; service-adjusted mean: 86%, Appendix A)
