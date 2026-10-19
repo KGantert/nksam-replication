@@ -5,6 +5,7 @@ type: software
 authors:
   - family-names: Gantert
     given-names: Konstantin
+    affiliation: "Tilburg University"
     email: kgantert@mail.de
 repository-code: "https://github.com/KGantert/nksam-replication"
 license: MIT
@@ -14,6 +15,7 @@ preferred-citation:
   authors:
     - family-names: Gantert
       given-names: Konstantin
+      affiliation: "Tilburg University"
   journal: "SSRN Working Paper"
   year: 2026
   doi: "10.2139/ssrn.5440912"

@@ -1,6 +1,6 @@
 # Replication package: "When Buying Takes Time: Shock Transmission across Goods and Labor Market Regimes in the New Keynesian Model"
 
-Konstantin Gantert · contact: kgantert@mail.de  
+Konstantin Gantert (Tilburg University, Department of Economics) · contact: kgantert@mail.de  
 Paper: SSRN working paper, https://doi.org/10.2139/ssrn.5440912  
 Code: https://github.com/KGantert/nksam-replication
 
