@@ -420,8 +420,12 @@ for pp = 1:4
 
     % --- zero iso-contour of the missing variable (gap panels only) -------
     if ~isempty(p.miss)
+        % 2026-10-23: in (c) and (d) this contour IS a Barro-Grossman regime
+        % boundary (theta_tilde = 0 resp. u_tilde = 0), so it is drawn heavier;
+        % in (b) it is the output-gap contour, not a regime boundary.
+        lw_miss = 0.9 + 0.7*(pp >= 3);
         hMiss0 = plot(ax, xx, p.contour_line(xx, 0), '-', 'Color', [0.55 0.55 0.55], ...
-                       'LineWidth', 0.9, 'HandleVisibility', 'off');
+                       'LineWidth', lw_miss, 'HandleVisibility', 'off');
         % (contour label placed after the trajectories, see below)
     end
 
@@ -438,8 +442,15 @@ for pp = 1:4
         if pp == 2, hXi = hx_; end
     end
 
-    yline(ax, 0, 'Color', [0.4 0.4 0.4], 'LineWidth', 0.8, 'HandleVisibility', 'off');
-    xline(ax, 0, 'Color', [0.4 0.4 0.4], 'LineWidth', 0.8, 'HandleVisibility', 'off');
+    % 2026-10-23: the axis that is the output-gap zero line (x = 0 in (c),
+    % y = 0 in (d)) is not a regime boundary there: drawn light and dotted.
+    ax_y = struct('c', [0.4 0.4 0.4], 'w', 0.8, 's', '-');
+    ax_x = ax_y;
+    lite = struct('c', [0.70 0.70 0.70], 'w', 0.6, 's', ':');
+    if pp == 3, ax_x = lite; end        % Y_tilde = 0 (vertical axis)
+    if pp == 4, ax_y = lite; end        % Y_tilde = 0 (horizontal axis)
+    yline(ax, 0, ax_y.s, 'Color', ax_y.c, 'LineWidth', ax_y.w, 'HandleVisibility', 'off');
+    xline(ax, 0, ax_x.s, 'Color', ax_x.c, 'LineWidth', ax_x.w, 'HandleVisibility', 'off');
 
     % --- trajectories --------------------------------------------------
     for ii = 1:n

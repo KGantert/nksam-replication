@@ -1,4 +1,4 @@
-Phase diagram (main_s5_irfs.m, 14-Oct-2026 19:50:39), Cobb-Douglas NK-SaM scenario
+Phase diagram (main_s5_irfs.m, 23-Oct-2026 07:57:40), Cobb-Douglas NK-SaM scenario
 beta*_q  (diagonal boundary, -CU_t/CU_ue) = -1.928
 beta*_Xi (threshold, -PE_t/PE_ue)         = -2.313
 scale_factors    = [1.303 1.176 1.043 1.336 0.4762]

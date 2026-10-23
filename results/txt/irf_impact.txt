@@ -1,4 +1,4 @@
-Impulse responses, quarters 1-4, percent deviations (main_s5_irfs.m, 14-Oct-2026 19:50:39)
+Impulse responses, quarters 1-4, percent deviations (main_s5_irfs.m, 23-Oct-2026 07:57:40)
 
 ==== shock eA ====
 variable                       Benchmark                 Complements                Cobb-Douglas                         CES
