@@ -1,0 +1,29 @@
+Phase diagram with capital (diag_phase_diagram_capital.m, 23-Oct-2026 11:39:59), Cobb-Douglas NK-SaM
+Regimes: gap-space quadrant of (x_gap, ue_gap) per quarter, from plot_phase_diagram (classify_regime).
+
+==== No capital (baseline) ====
+identity (*): ThY = 7.3920, Thu = 3.8348, R^2 = 1.00000000, beta*_q = -ThY/Thu = -1.928
+  eA   gap regimes: Underconsumption | Underconsumption | Underconsumption | Underconsumption | Underconsumption | Underconsumption | Keynesian unemployment | Keynesian unemployment | Keynesian unemployment | Keynesian unemployment | Keynesian unemployment | Keynesian unemployment
+  eM   gap regimes: Underconsumption | Repressed inflation | Repressed inflation | Repressed inflation | Repressed inflation | Repressed inflation | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment
+  eD   gap regimes: Underconsumption | Underconsumption | Underconsumption | Keynesian unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment
+  eT   gap regimes: Underconsumption | Underconsumption | Underconsumption | Keynesian unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment
+  eP   gap regimes: Underconsumption | Underconsumption | Underconsumption | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment
+  classified differently in levels and gaps: eD
+
+==== Capital, fixed utilization ====
+identity (*): ThY = 5.7163, Thu = 2.3487, R^2 = 0.99467734, beta*_q = -ThY/Thu = -2.434
+  eA   gap regimes: Underconsumption | Underconsumption | Underconsumption | Underconsumption | Underconsumption | Underconsumption | Underconsumption | Underconsumption | Underconsumption | Keynesian unemployment | Keynesian unemployment | Keynesian unemployment
+  eM   gap regimes: Repressed inflation | Repressed inflation | Repressed inflation | Repressed inflation | Repressed inflation | Repressed inflation | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment
+  eD   gap regimes: Underconsumption | Underconsumption | Underconsumption | Underconsumption | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment
+  eT   gap regimes: Underconsumption | Underconsumption | Underconsumption | Underconsumption | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment
+  eP   gap regimes: Underconsumption | Underconsumption | Underconsumption | Keynesian unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment
+  classified differently in levels and gaps: eD, eT, eP
+
+==== Capital, variable utilization ====
+identity (*): ThY = 9.6720, Thu = 3.6849, R^2 = 0.98520742, beta*_q = -ThY/Thu = -2.625
+  eA   gap regimes: Underconsumption | Underconsumption | Underconsumption | Underconsumption | Underconsumption | Underconsumption | Underconsumption | Underconsumption | Underconsumption | Keynesian unemployment | Keynesian unemployment | Classical unemployment
+  eM   gap regimes: Repressed inflation | Repressed inflation | Repressed inflation | Repressed inflation | Repressed inflation | Repressed inflation | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment
+  eD   gap regimes: Underconsumption | Underconsumption | Underconsumption | Underconsumption | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment
+  eT   gap regimes: Underconsumption | Underconsumption | Underconsumption | Underconsumption | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment
+  eP   gap regimes: Underconsumption | Underconsumption | Underconsumption | Keynesian unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment | Classical unemployment
+  classified differently in levels and gaps: eA, eD

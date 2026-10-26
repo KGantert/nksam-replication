@@ -24,6 +24,7 @@ RUN.diag_quality_search      = false;  % diagnostic: gamma_P range of check 2   
 RUN.diag_data_gaps           = false;  % diagnostic: model-implied gaps vs. US data
 RUN.diag_slope_paths         = false;  % diagnostic: aggregate slopes horizon by horizon, moment-based beta [Dynare]
 RUN.diag_shock_persistence   = false;  % diagnostic: IRFs with more persistent shocks (rho_A = 0.95, rho_Z = 0.9, others 0.8) [Dynare]
+RUN.diag_phase_diagram_capital = false; % diagnostic: phase diagram with capital and utilization (fixed/variable), no analytical thresholds [Dynare]
 % Other options
 OPT.cache          = 'auto';   % 'auto' | 'fresh' | 'reuse'
 OPT.seed           = 1;        % random seed of all simulations
